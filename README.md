@@ -6,10 +6,7 @@ Our platform provides realtime messaging for developers with **Server-Sent Event
 
 ## Examples
 
-### JavaScript
-```js
-const es = new EventSource("https://api.sse-server.com/api/events?token=JWT_TOKEN");
-
-es.onmessage = (event) => {
-  console.log("Received:", JSON.parse(event.data));
-};
+## Example Clients
+- [JavaScript](examples/javascript/client.js)
+- [Python](examples/python/client.py)
+- [Go](examples/go/client.go)
